@@ -1,19 +1,18 @@
+import React, { Component } from 'react';
+import HomePage from './components/Pages/HomePage';
 
-//import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          What is up my dudes
-        
-        </p>
-        
-      </header>
-    </div>
-  );
+const App = ()=>  {
+   
+    return(
+      <>
+      <HomePage /> 
+      </>
+      
+    );
+  
+    
 }
+
 
 export default App;
